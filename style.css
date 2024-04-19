@@ -113,6 +113,14 @@ p{
 }
 
 @media only screen and (max-width: 600px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+    }
     img{
         width: 70%;
     }
@@ -126,25 +134,36 @@ p{
     .headline-container{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .launch-time-container{
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-left: 30%;
+        justify-content: center;
+       
     }
     .launch-time-container h1{
-       font-size: 30px;
+       font-size: 50px;
+       width: 300px;
     }
-    .features{
+    .launch-time p{
+        width: fit-content;
+    }
+    .feature{
+        display: flex;
+        justify-content: center;
      
     }
-    .features h1{
-        font-size: 40px;
-        padding:2px;
-    }
-    .features p{
+    .feature h1{
         font-size: 30px;
+        padding:2px;
+        
+    }
+    .feature p{
+        font-size: 20px;
+        width: 90%;
     }
     .feature{
         padding: 5px;
