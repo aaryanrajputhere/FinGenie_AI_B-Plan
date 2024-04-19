@@ -132,7 +132,9 @@ p{
         width: 100%;
     }
     .headline h1{
-        padding-left: 10%;
+        padding-right: 5%;
+        padding-left: 5%;
+       
     }
     .headline-container{
         display: flex;
