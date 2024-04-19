@@ -129,19 +129,23 @@ p{
     }
 
     .headline{
-        width: 100%;
+        width: 70%;
+        padding: 2%;
+        padding-left: 0;
     }
     .headline h1{
-        padding-right: 5%;
-        padding-left: 5%;
+    
+      
        
     }
+
     .headline-container{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+  
     .launch-time-container{
         display: flex;
         flex-direction: column;
@@ -155,6 +159,9 @@ p{
     }
     .launch-time p{
         width: fit-content;
+    }
+    .launchingIn h1{
+        font-size: 40px;
     }
     .feature{
         display: flex;
