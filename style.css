@@ -117,7 +117,7 @@ p{
     background-color: white;
     padding :5%;
     padding-bottom: 8%;
-    width: 100%;
+    width: 85%;
 }
 .launch-time{
     display: flex;
@@ -160,6 +160,7 @@ img{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+      
     }
   
     .launch-time-container{
@@ -167,6 +168,9 @@ img{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin: 0;
+        padding: 0;
+        width: 100%;
        
     }
     .launch-time-container h1{
