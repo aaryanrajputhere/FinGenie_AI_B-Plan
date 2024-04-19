@@ -111,7 +111,9 @@ p{
 .launch-time div{
   width: 90px;
 }
-
+img{
+    border-radius: 11%;
+}
 @media only screen and (max-width: 600px) {
     *{
         margin: 0;
