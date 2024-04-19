@@ -134,10 +134,10 @@ p{
         padding-left: 30%;
     }
     .launch-time-container h1{
-        width: 300px;
+       font-size: 30px;
     }
     .features{
-        width: 100%;
+     
     }
     .features h1{
         font-size: 40px;
