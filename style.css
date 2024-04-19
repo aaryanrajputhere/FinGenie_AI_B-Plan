@@ -1,3 +1,10 @@
+:root {
+    --naughty-navy: #000080; /* Replace with your desired color code */
+    --white: #ffffff; /* Replace with your desired color code */
+    --trusty-blue: #3b5998; /* Replace with your desired color code */
+    --boss-black: #000000;
+  }
+
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +12,8 @@
  
 }
 body{
-    background-color: blue;
+        background-color: var(--naughty-navy);
+    color: var(--white);
     width: auto;
     height: auto;
 }
@@ -17,7 +25,8 @@ body{
 .hero{
     display: flex;
     flex-direction: column;
-    background-color: blue;
+    background-color: var(--naughty-navy);
+    color: var(--white);
 
 
 }
@@ -30,7 +39,7 @@ body{
     color: white;
     padding: 6%;
     padding-left: 10%;
-    background-color: blue;
+  
     width: 35%;
 
 
@@ -80,9 +89,13 @@ img{
 .feature{
     padding: 40px;
     margin: 10px;
-    height: 500px;
-    background-color: blueviolet;
+    height: 400px;
+    background-color: var(--trusty-blue);
+    color: var(--boss-black);
     border-radius: 10px;
+    margin-bottom:40px ;
+    margin-top: 40px;
+    color: white;
 }
 p{
     font-size: 30px ;
@@ -91,7 +104,7 @@ p{
 
 .text{
     padding-top: 6%;
-    background-color: blueviolet;
+   
 
 }
 
@@ -99,10 +112,11 @@ p{
     width:0;
 }
 .launch-time-container{
-    color: blue;
+    color: var(--naughty-navy);
+   
     background-color: white;
     padding :5%;
-    padding-top: 7%;
+    padding-bottom: 8%;
     width: 100%;
 }
 .launch-time{
