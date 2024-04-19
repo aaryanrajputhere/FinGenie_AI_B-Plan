@@ -15,3 +15,18 @@ document.getElementById("minutes").innerHTML = minutes;
 document.getElementById("seconds").innerHTML = seconds;
 
 },1000);
+
+function clearInput() {
+    document.getElementById('email').value = '';
+    const notificationDiv = document.getElementById('notification');
+
+ 
+}
+
+
+document.getElementById('floatingButton').addEventListener('click', function() {
+    window.scrollTo({
+        top: document.body.scrollHeight,
+        behavior: 'smooth'
+    });
+});

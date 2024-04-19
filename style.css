@@ -57,15 +57,28 @@ h2{
 }
 label{
     color: white;
-    font-size: 20px
+    font-size: 25px
+
+}
+input{
+    width: 40%;
+    height: 40%;
+    padding-top: 6px;
+
 }
 button{
     width: 90%;
-    height: 5%;
+    height: 40px;
+    font-size: 15px;
     background-color: var(--gold);
     color: var(--boss-black);
     padding: 6px;
     border-radius: 0.5rem;
+    position: fixed;
+    z-index: 1000;
+    bottom: 20px; 
+    right: 20px;
+    cursor: pointer;
     
 }
 .getnotif{
@@ -140,6 +153,9 @@ p{
 img{
     border-radius: 11%;
 
+}
+#bottom {
+    height: 30px; /* Just for demonstration purposes to make scrolling noticeable */
 }
 @media only screen and (max-width: 600px) {
     *{
@@ -219,4 +235,9 @@ img{
   }
   .feature{
     margin-bottom: 30px;
+  }
+
+  .notification{
+    color: black;
+
   }
