@@ -1,7 +1,13 @@
 *{
     margin: 0;
     padding: 0;
+    
  
+}
+body{
+    background-color: blue;
+    width: auto;
+    height: auto;
 }
 .container{
     display: flex;
@@ -15,16 +21,24 @@
 
 
 }
+.headline-container{
+    display: flex;
+    flex-direction: row;
+}
 .headline{
     margin: 0;
     color: white;
-    padding: 13%;
+    padding: 6%;
+    padding-left: 10%;
     background-color: blue;
+    width: 35%;
+
 
 }
 
 h1{
-    font-size: 70px;
+    font-size: 65px;
+   
 }
 h2{
     color: white;
@@ -42,16 +56,14 @@ button{
     
 }
 .getnotif{
-    background-color: rgb(79, 131, 236);
+    background-color: rgb(70, 67, 67);
 }
 
 .uiai{
     
 }
 img{
-    width: 25%;
-   
-
+    width: 30%;
    
 }
 .uiai{
@@ -59,15 +71,82 @@ img{
     justify-content: space-evenly;
 }
 .features{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-color: blue;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 90%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
 }
 .feature{
-    width: 400px;
-    height: 300px;
+    padding: 40px;
+    margin: 10px;
+    height: 400px;
     background-color: blueviolet;
-    border-radius: 1rem;
-    padding: red;
+    border-radius: 10px;
 }
+p{
+    font-size: 30px ;
+    width: 400px;
+}
+
+.text{
+    margin-top: 2%;
+    margin-left: 10%;
+    background-color: blueviolet;
+
+}
+
+.features::-webkit-scrollbar{
+    width:0;
+}
+.launch-time-container{
+    color: white;
+    padding :5%;
+    padding-top: 7%;
+    width: 40%;
+}
+.launch-time{
+    display: flex;
+}
+.launch-time div{
+  width: 90px;
+}
+
+@media only screen and (max-width: 600px) {
+    img{
+        width: 70%;
+    }
+    h1{
+        font-size: 50px;
+    }
+
+    .headline{
+        width: 80%;
+    }
+    .headline-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .launch-time-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 30%;
+    }
+    .launch-time-container h1{
+        width: 300px;
+    }
+    .features{
+        width: 100%;
+    }
+    .features h1{
+        font-size: 40px;
+        padding:2px;
+    }
+    .features p{
+        font-size: 30px;
+    }
+    .feature{
+        padding: 5px;
+    }
+  }
