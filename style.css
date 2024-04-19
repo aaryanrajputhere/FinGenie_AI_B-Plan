@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+.container{
+    display: flex;
+    flex-direction: column;
+
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+
+
+}
+.headline{
+    margin: 0;
+    color: white;
+    padding: 13%;
+    background-color: blue;
+
+}
+
+h1{
+    font-size: 70px;
+}
+h2{
+    color: white;
+
+}
+label{
+    color: white;
+    font-size: 20px
+}
+button{
+    color: black;
+    background-color: white;
+    padding: 6px;
+    border-radius: 0.5rem;
+    
+}
+.getnotif{
+    background-color: rgb(79, 131, 236);
+}
+
+.uiai{
+    
+}
+img{
+    width: 25%;
+   
+
+   
+}
+.uiai{
+    display: flex;
+    justify-content: space-evenly;
+}
+.features{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: blue;
+}
+.feature{
+    width: 400px;
+    height: 300px;
+    background-color: blueviolet;
+    border-radius: 1rem;
+    padding: red;
+}
