@@ -99,10 +99,11 @@ p{
     width:0;
 }
 .launch-time-container{
-    color: white;
+    color: blue;
+    background-color: white;
     padding :5%;
     padding-top: 7%;
-    width: 40%;
+    width: 100%;
 }
 .launch-time{
     display: flex;
